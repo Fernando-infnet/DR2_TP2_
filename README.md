@@ -6,7 +6,9 @@ Resolução dos 12 exercícios, em dois formatos com o mesmo código:
 - [`python/`](python): um arquivo por exercício, cada um executável.
 
 ```bash
-python python/ex01_maior_unico.py      # idem ex02 ... ex12
+python run_all.py            # roda todos os exercícios em sequência, com resumo no fim
+python run_all.py --quiet    # só o resumo (OK/FALHA e tempo de cada um)
+python python/ex01_maior_unico.py      # ou um exercício isolado
 ```
 
 | Arquivo | Exercício |
